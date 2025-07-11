@@ -1,7 +1,7 @@
 /*global*/
 *{
-    margin: 0;
-    padding: 0%;
+    margin: 1%;
+    padding: 1%;
 }
 body{
     font-family: arial;
@@ -9,7 +9,16 @@ body{
 P{
     line-height: 2;
 }
-
+img{
+    max-width: 100%;
+}
+.init-header{
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    height: 500%;
+    color: white;
+    text-align: center;
+}
 /*utilities*/
 
 /*header*/

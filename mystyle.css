@@ -22,6 +22,7 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
 .flex-parent-between{
 display: flex;
 flex-direction: row;
@@ -53,13 +54,23 @@ align-items: center;
 
 /*houses section*/
 .houses-container{
-
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
 .house-item{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;   
 background-color: #dedede;
 }
 .house-item-img{
-
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
 .house-item-text{
 padding: 20px;

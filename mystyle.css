@@ -55,9 +55,7 @@ align-items: center;
 /*houses section*/
 .houses-container{
 display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
+flex-direction: row; gap: 12px;
 }
 .house-item{
 display: flex;
@@ -74,4 +72,22 @@ align-items: center;
 }
 .house-item-text{
 padding: 20px;
+}
+
+.houses-items-details{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 20px;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.text-price{
+    color: green;
 }

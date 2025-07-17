@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.contact-header{
+    background-color: orange;
+    height: 200px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.contact-header-contact{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.contact-menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 18px;
+}
+.form{
+    background-color: lightgray;
+}
+
+/* Footer */
+.contact.footer{
+    background-color: lightgrey;
+    height: 100px;
+}
